@@ -1,6 +1,3 @@
-# Your code goes here!
-
-require 'pry'
 class Anagram
 
     attr_reader :word
@@ -14,7 +11,3 @@ class Anagram
     end
 
 end
-
-listen = Anagram.new("listen")
-puts listen.match(["enlists", "google", "inlets", "banana"])
-puts listen.word
